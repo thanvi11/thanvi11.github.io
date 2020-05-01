@@ -112,8 +112,9 @@
             <a href="about.html">About Me</a>
             <a href="resume.html">Resume</a>
             <a href="contact.html">Contact Me</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
+            </a>
         </div>
         
         <h4 style="font-size: 5vw"> Hello I'm</h4>
@@ -122,16 +123,15 @@
         <p style="font-size: 4vw">I am a high school sophomore from Austin, Texas with an interest in Computer Science.</p>
 
         <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className == "topnav"){
-                    x.className += "responsive";
-                }
-                else {
-                    x.className = "topnav";
-                }
-            }
-        </script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
         
         
     </body>
